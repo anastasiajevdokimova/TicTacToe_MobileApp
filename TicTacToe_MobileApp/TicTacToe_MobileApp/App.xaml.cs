@@ -10,7 +10,7 @@ namespace TicTacToe_MobileApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new StartGameDouble_Page());
         }
 
         protected override void OnStart()
